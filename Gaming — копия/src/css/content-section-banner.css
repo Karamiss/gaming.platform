@@ -1,0 +1,37 @@
+.content-section-banner {
+  display: flex;
+  justify-content: center;
+}
+.section-title, .section-description {
+  white-space: pre-line;
+  color: #fff;
+}
+.section-title {
+  padding-top: 67px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56.25px;
+}
+.section-description {
+  padding-top: 32px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+}
+.group21 {
+  flex-shrink: 0;
+  position: absolute;
+  /* top: 219px; */
+  /* right: 272px; */
+  /* bottom: 125px; */
+  /* left: 972px; */
+}
+.section-img {
+  justify-content: center;
+  padding-top: 46px;
+}

@@ -1,0 +1,88 @@
+
+.btn-see-all {
+  background-color: #24201D;
+  color: #fff;
+  width: 139px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.50px;
+  word-wrap: break-word;
+  border: none;
+  flex-shrink: 0;
+}
+
+.trending-games {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 58.12px;
+  word-wrap: break-word; 
+}
+
+.span-image {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 58.12px;
+  word-wrap: break-word; 
+}
+
+.container {
+  display: flex;
+
+
+}
+.block1 {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 147px;
+  margin-top: 178px;
+
+}
+
+.block2 {
+  display: flex;
+  margin-top: 57px;
+  justify-content: center;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  text-align: center;
+  padding: 0px 47px;    
+}
+
+.text-center {
+  padding-top: 129px;
+  display: flex;
+  justify-content: center;
+}
+
+.lorem-text{
+  width: 826px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%;
+  text-align: center;
+}
+
+.span-image {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 58.12px;
+  word-wrap: break-word;
+  margin-top: 25px; 
+}
+.btn-see-all {
+  justify-content: flex-end;
+}

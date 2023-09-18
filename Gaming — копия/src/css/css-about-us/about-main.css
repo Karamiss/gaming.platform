@@ -1,0 +1,38 @@
+.about-main {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  margin-right: 166px;
+  align-items: center;
+  
+}
+
+.about-heading {
+  width: 425px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 180.5%;
+}
+
+.about-paragraph {
+  width: 414px;
+  height: 95px;
+  flex-shrink: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 208.5%;
+}
+.button-get {
+    width: 176px;
+    height: 47.836px;
+    border-radius: 40px;
+    background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    flex-shrink: 0;
+    margin-top: 57.16px;
+}
+.rounded-image {
+  border-radius: 10px;
+  width: 439;
+}

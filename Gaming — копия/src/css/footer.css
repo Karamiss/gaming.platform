@@ -1,0 +1,92 @@
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 147px;
+  padding-top: 236px;
+}
+
+hr {
+  width: 1600px;
+  height: 0.8px;
+  background-color: #FFF;
+  margin-top: 56px;
+}
+
+
+.footer-logo {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36.84px;
+  margin-bottom: 15px;
+}
+
+.footer-lorem-text {
+  width: 372px;
+  height: 58px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.footer-logo-text {
+  width: 196px;
+  height: 23px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  /* font-size: 16px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.a-wrapper-lorem {
+  margin-top: 15px;
+}
+
+.a-wrapper-logo {
+  margin-top: 25px;
+}
+
+.btn-contact-us {
+  margin-bottom: 15px;
+}
+
+
+.nav-heading {
+  color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 15px;
+}
+
+.menu-list {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.808px;
+}
+
+
+.contentinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+  font-family: Poppins;
+  height: 50px;
+  margin-bottom: 30px;
+}

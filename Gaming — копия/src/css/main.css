@@ -1,0 +1,10 @@
+body {
+  margin: 0px 147px;
+  background-color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px; /*размер для всего текста по умолчанию*/
+  /* line-height: 1.2; */
+  font-weight: normal;
+  color: white;
+}

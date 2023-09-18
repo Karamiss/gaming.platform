@@ -1,0 +1,80 @@
+.main-description-section {
+  margin: 0px 147px;
+}
+
+
+
+.description-text, .description-details {
+  word-wrap: break-word;
+  display: block;
+}
+.description-text {
+  margin-top: 17px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  width: 479.629px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.2%; /* 77.6px */
+
+}
+.description-details {
+  margin-top: 20px; /*Крч,, эту хуйню обернуть и задать это же свойство и картинка встанет*/
+  word-wrap: break-word;
+  width: 527px;
+  height: 101px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+}
+.description-title {
+  color: #E87D0E;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.04px; 
+}
+span {
+  word-wrap: break-word;
+}
+.description-button {
+  margin-top: 50px;
+  width: 195px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.description-content {
+  flex: 1; /* Занимает всю доступную ширину */
+  padding-right: 145px; /* Добавляет отступ между .wrapper и .png-wrapper */
+}
+
+.description-img {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; /* Выравнивание содержимого по правому краю */
+  align-items: center; /* Выравнивание содержимого по вертикали по центру */
+}
+
