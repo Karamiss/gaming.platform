@@ -1,0 +1,44 @@
+#name {
+  width: 322px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 0.6px solid #CECECE;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+#name1 {
+  width: 322px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 0.6px solid #CECECE;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+#adress {
+  width: 671px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 0.6px solid #CECECE;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+#message {
+  width: 671px;
+height: 232px;
+flex-shrink: 0;
+border-radius: 9px;
+border: 0.6px solid #CECECE;
+background: rgba(255, 255, 255, 0.07);
+}
+.hueta {
+  display: flex;
+  /* justify-content: center; */
+}
+.wrappercontainer {
+  display: flex;
+  justify-content: center;
+
+}

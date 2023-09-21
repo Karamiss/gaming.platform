@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(176deg, #090501 -26.24%, #120A01 96.98%);
+}
+
+.navigation-text,
+.article-heading,
+.article-text {
+  text-align: center;
+}
+
+.article-heading {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 59.565px;
+  margin-top: 15px;
+}
+
+.article-text {
+  margin-top: 13px;
+}
+
+.image-map {
+  margin-top: 93px;
+}
+
+.divider-line {
+  width: 1px;
+  height: 102px;
+  background: #FFF;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 52px;
+}
