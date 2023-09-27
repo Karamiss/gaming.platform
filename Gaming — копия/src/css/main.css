@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0px 147px;
   background-color: #000000;
@@ -7,5 +9,7 @@ body {
   /* line-height: 1.2; */
   font-weight: normal;
   color: white;
+  /* width: 100%; */
 
 }
+

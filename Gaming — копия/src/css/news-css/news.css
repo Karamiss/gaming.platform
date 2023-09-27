@@ -1,0 +1,17 @@
+.image-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  & h1 {
+  font-weight: 600;
+  }
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+  width: 200px;
+  
+  
+}

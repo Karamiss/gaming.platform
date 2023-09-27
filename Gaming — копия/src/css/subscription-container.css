@@ -1,16 +1,12 @@
 .subscription-container {
   color: #fff;
-  margin: 0px 147px;
-  width: 1600px;
+  /* margin: 0px 147px; */
 }
 .lorem-title1 {
     width: 209px;
     height: 40px;
     flex-shrink: 0;
-    color: #FFF;
-    font-family: Poppins;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
     line-height: 187.5%;
     margin-top: 114px;
@@ -20,16 +16,12 @@
   width: 545px;
   height: 57px;
   flex-shrink: 0;
-  color: #FFF;
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 187.5%;
 }
 .wrapper {
-  width: 1400px;
-  height: 189px;
+  width: 1100px;
   border-radius: 15px;
   background: #1C140F;
   flex-shrink: 0;
@@ -42,19 +34,13 @@
 }
 .loop-title {
   width: 303px;
-  color: #FFF;
-  font-family: Poppins;
   font-size: 30px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .subscribe-text {
     width: 636px;
-    color: #FFF;
-    font-family: Poppins;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -75,8 +61,6 @@
   border-radius: 8px;
   background: #DC7000;
   flex-shrink: 0;
-  color: #FFF;
-  font-family: Poppins;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;

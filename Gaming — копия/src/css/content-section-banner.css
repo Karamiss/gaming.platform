@@ -1,6 +1,7 @@
 .content-section-banner {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .section-title, .section-description {
   white-space: pre-line;

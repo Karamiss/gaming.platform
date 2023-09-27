@@ -36,9 +36,11 @@ background: rgba(255, 255, 255, 0.07);
 .hueta {
   display: flex;
   /* justify-content: center; */
-}
-.wrappercontainer {
-  display: flex;
-  justify-content: center;
 
 }
+.wrappercontainer label {
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+

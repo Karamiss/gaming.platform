@@ -3,12 +3,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 0px 147px;
+  /* margin: 0px 147px; */
   padding-top: 236px;
 }
 
 hr {
-  width: 1600px;
+  width: 50%;
   height: 0.8px;
   background-color: #FFF;
   margin-top: 56px;

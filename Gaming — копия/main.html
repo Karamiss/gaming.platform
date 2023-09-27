@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MAIN</title>
     <link rel="stylesheet" href="/src/css/content-section-banner.css">
-    <link rel="stylesheet" href="/src/css/header.css" />
+    <!-- <link rel="stylesheet" href="/src/css/header.css" /> -->
     <link rel="stylesheet" href="/src/css/main.css">
     <link rel="stylesheet" href="/src/css/content-container-section.css">
     <link rel="stylesheet" href="/src/css/game-version.css">
     <link rel="stylesheet" href="/src/css/main-description-section.css">
     <link rel="stylesheet" href="/src/css/projects-section.css">
-    <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <link rel="stylesheet" href="/src/css/footer.css">
     <link rel="stylesheet" href="/src/css/subscription-container.css">
   </head>
@@ -20,7 +20,7 @@
     
                                                        
     <!-- CSS header -->
-    <header class="main-header">
+    <!-- <header class="main-header">
       <div class="header-logo">
         <a href="/main.html" class="header-logo-link">LOGO</a>
       </div>
@@ -43,7 +43,9 @@
         </nav>
         <a href="/contact-us.html" class="contact-button">Contact us</a>
       </div>
-    </header>
+    </header> -->
+
+    <div w3-include-html="header.html"></div>
                                                    
     <!-- CSS main-description-section -->
 <article class="main-description">
@@ -245,7 +247,7 @@
   <div class="contact-container">
     <p class="btn-contact-us">Contact us</p>
     <p>
-      Lorem Ipsum is simply dummy text
+      Lorem Ipsum is simply dummy text <br>
       of the printing and typesetting industry. 
     </p>
     <p>+908 89097 890</p>
@@ -258,6 +260,8 @@
   <p>Copyright ® 2021 Lorem All rights Rcerved</p>
 </div> 
   </body>
+  <script src="/js/header.js"></script>
+  <script>includeHTML();</script>
 </html>
 
 
