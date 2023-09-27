@@ -29,10 +29,7 @@ hr {
   width: 372px;
   height: 58px;
   flex-shrink: 0;
-  color: #FFF;
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -43,9 +40,7 @@ hr {
   height: 23px;
   flex-shrink: 0;
   color: #FFF;
-  font-family: Poppins;
   /* font-size: 16px; */
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -75,7 +70,6 @@ margin-bottom: 15px;
 
 .menu-list {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 29.808px;
 }
@@ -86,7 +80,6 @@ margin-bottom: 15px;
   justify-content: center;
   align-items: center;
   margin-top: 29px;
-  font-family: Poppins;
   height: 50px;
   margin-bottom: 30px;
 }

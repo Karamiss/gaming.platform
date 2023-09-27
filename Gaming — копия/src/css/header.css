@@ -51,17 +51,3 @@
   margin-right: 55px;
 }
 
-
-/*             */
-
-.continuous-1 {
-  background: 
-      linear-gradient(currentColor 0 0) 
-      var(--d, 201%) 100% /200% 3px 
-      no-repeat;
-  transition:в
-  cursor: pointer;
-}
-.continuous-1:hover {
-  --d: -101%;
-}
