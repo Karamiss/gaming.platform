@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0px 147px;
   background-color: #000000;
@@ -13,3 +12,10 @@ body {
 
 }
 
+.projects-section {
+  border: dashed rebeccapurple;
+}
+
+.pr-container1 {
+  border: dashed rgb(153, 51, 136);
+}

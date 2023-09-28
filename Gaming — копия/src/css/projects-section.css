@@ -1,20 +1,22 @@
-
 .projects-section {
   /* background-color: #FFF; */
   margin-top: 234px;
+  width: 100%;
+  height: auto;
 }
 
-.projects-title  {
+.projects-title {
   display: flex;
   justify-content: center;
 }
+
 .project-heading {
-    color: #ffffff;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 187.5%;
-    text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187.5%;
+  text-align: center;
 }
 
 .project-description {
@@ -30,27 +32,26 @@
   margin-bottom: 71px;
 }
 
-
+/* - - - - - - - - - - - */
 .project-images {
   display: flex;
+  border: 1px dashed #fff;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  /* margin: 27px 33px; */
-  justify-content: center;
 }
 
-
-.pr-container2 {
-  margin: 33px 27px;
+.proj-img {
+  border-radius: 10px;
+  margin: 6px auto;
+  width: 30%;
+  max-height: 223px;
+  object-fit: cover;
 }
 
-.pr-container1 {
-  margin: 0px 27px 0px 27px;
-}
-
+/* - - - - - - - - - - - */
 .btn-sap-container {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .btn-see-all-projects {
