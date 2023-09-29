@@ -4,19 +4,18 @@
   height: 135px;
   display: flex;
   justify-content: center;
-  /* justify-content: space-evenly; */
   align-items: center;
   width: 100%;
 }
 
 .header-logo {
-  width: 100%;
   font-weight: 800;
   font-size: 29px;
   line-height: 44.51px;
+  /* float: left; */
 }
 .header-navigation {
-  margin-right: 36.59px;
+  /* margin-right: 36.59px; */
 }
 .header-logo-link {
   color: inherit;
@@ -28,6 +27,7 @@
   color: inherit;
 }
 .contact-button {
+  
   width: 131.77px;
   height: 41.34px;
   background: orange;
@@ -43,9 +43,11 @@
 
 }
 .header-right {
-  width: 673px;
+  /* width: 673px; */
+  max-width: 100%;
   height: 41px;
   display: flex;
+  
   align-items: center;
   margin-right: 55px;
 }
