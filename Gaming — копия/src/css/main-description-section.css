@@ -1,25 +1,28 @@
-/* .main-description-section {
-  margin: 0px 147px;
-} */
+.main-description {
+  max-width: 100%;
+  min-width: 320px;
+}
 
 
 
 .description-text, .description-details {
-  word-wrap: break-word;
-  display: block;
+  /* word-wrap: break-word; */
+  flex-wrap: wrap;
+  /* display: block; */
 }
 .description-text {
   margin-top: 17px;
   margin-bottom: 20px;
-  word-wrap: break-word;
-  width: 479.629px;
+  /* word-wrap: break-word; */
+  width: 479px;
   font-size: 50px;
   font-weight: 700;
   line-height: 77.6px; 
+  white-space: wrap;
 
 }
 .description-details {
-  margin-top: 20px; /*Крч,, эту хуйню обернуть и задать это же свойство и картинка встанет*/
+  margin-top: 20px; 
   word-wrap: break-word;
   width: 527px;
   height: 101px;
@@ -33,6 +36,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 31.04px; 
+  transition: color 3s ease-in-out; /* сolor.js*/
 }
 span {
   word-wrap: break-word;
@@ -48,7 +52,6 @@ span {
   font-weight: 500;
   line-height: normal;
 }
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -56,8 +59,10 @@ span {
 }
 
 .description-content {
-  flex: 1; /* Занимает всю доступную ширину */
-  padding-right: 145px; /* Добавляет отступ между .wrapper и .png-wrapper */
+  /* flex: 1;  */
+  width: 906,25%;
+  height: auto;
+  padding-right: 145px; 
 }
 
 .description-img {

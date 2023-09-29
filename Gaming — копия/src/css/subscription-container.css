@@ -74,3 +74,22 @@ min-width: 200px;
   align-items: center;
   margin-right: 6.24px;
 } 
+
+/* Добавьте этот медиа-запрос для меньших экранов */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column; /* Измените направление на вертикальное */
+    align-items: center; /* Выравнивание по центру */
+  }
+
+  .wrapper-eea {
+    margin-top: 20px;
+    min-width: 200px; /* Ограничьте максимальную ширину кнопки 100% контейнера */
+    width: auto; /* Добавьте отступ между .wrapper и .wrapper-eea */
+  }
+
+  .btn-continue {
+    max-width: 100%; /* Ограничьте максимальную ширину кнопки 100% контейнера */
+    width: auto; /* Автоматическая ширина для подгонки под контент */
+  }
+}

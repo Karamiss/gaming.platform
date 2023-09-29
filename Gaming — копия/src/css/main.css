@@ -1,6 +1,6 @@
 
 body {
-  margin: 0px 147px;
+  /* margin: 0px 147px; */
   background-color: #000000;
   font-family: "Poppins";
   font-style: normal;
@@ -9,9 +9,26 @@ body {
   font-weight: normal;
   color: white;
   /* width: 100%; */
+  
 
 }
 
+.adaptiv  {
+  border: dashed rebeccapurple;
+}
+.main-description {
+  border: dashed rebeccapurple;
+
+}
+.content-section {
+  border: dashed rebeccapurple;
+}
+.content-section-banner {
+  border: dashed rebeccapurple;
+}
+.feature-section{
+  border: dashed rebeccapurple;
+}
 .projects-section {
   border: dashed rebeccapurple;
 }
