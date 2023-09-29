@@ -8,7 +8,10 @@ body {
   /* line-height: 1.2; */
   font-weight: normal;
   color: white;
-  /* width: 100%; */
+  width: 100%;
+  /* display: inline-flexbox; */
+  /* display: block; */
+  /* justify-content: center; */
   
 
 }
